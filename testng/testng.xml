@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="suiteTest">
+    <suite-files>
+        <suite-file path="loginTestNg.xml"/>
+        <suite-file path="updatePasswordTestNg.xml"/>
+    </suite-files>
+    <listeners>
+        <!-- class-name的值填写为时间创建的监听器的路径 -->
+        <listener class-name="com.hzzx.utils.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
